@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link fontAwesome css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/all.min.css"
+    />
+    <!-- link  normalize css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/normalize.css"
+    />
+    <!-- link  font css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link my framework css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/framework.css"
+    />
+    <!-- link  main css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- link main js  -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Str Header -->
+    <div class="header d-flex f-wrap">
+      <div class="logo">
+        <img src="img/logo.png" class="wid-full" alt="" />
+      </div>
+      <div class="space"></div>
+      <div class="toggleMenu d-none s-mob pad-10 c-point">
+        <span class="d-bloc m-bott-10"></span>
+        <span class="d-bloc m-bott-10"></span>
+        <span class="d-bloc"></span>
+      </div>
+      <div class="menu heig-full d-flex j-con-sb flex p-rel">
+        <div class="overlay p-abs"></div>
+        <ul class="links d-flex">
+          <li class="t-tra-u">
+            <a href="" class="pad-10 d-bloc heig-full active">store</a>
+          </li>
+          <li class="t-tra-u">
+            <a href="" class="pad-10 d-bloc heig-full">distribution</a>
+          </li>
+          <li class="t-tra-u">
+            <a href="" class="pad-10 d-bloc heig-full">support</a>
+          </li>
+          <li class="t-tra-u m-lef-20 p-rel bef">
+            <a href="" class="pad-10 d-bloc heig-full">unreal engine</a>
+          </li>
+        </ul>
+        <div class="option d-flex">
+          <div class="changLang">
+            <i
+              class="fa-solid fa-globe p-rel c-point heig-full d-flex j-con-c"
+            ></i>
+            <ul class="t-align">
+              <li class="d-none s-mob c-point">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="t-tra-u">English</span>
+              </li>
+              <li>
+                <a href="" class="pad-10 t-tra-u d-none s-mob"> العربية</a>
+              </li>
+              <li>
+                <a href="" class="pad-10 t-tra-u d-none s-mob"> francais </a>
+              </li>
+            </ul>
+          </div>
+          <div class="profile c-point">
+            <div class="heig-full d-flex a-item pad-20">
+              <i class="fa-solid fa-user userAvatar m-rig-5 aft"></i>
+              <span class="userName t-tra-u">arbialilo</span>
+            </div>
+            <ul class="t-align">
+              <li class="d-none s-mob">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="userName t-tra-u">arbialilo</span>
+              </li>
+
+              <li>
+                <a href="" class="pad-10 d-none s-mob t-tra-u"
+                  >my achievements</a
+                >
+              </li>
+              <li>
+                <a href="" class="pad-10 d-none s-mob t-tra-u">sign out</a>
+              </li>
+            </ul>
+          </div>
+          <div class="buttonDownload t-tra-u">
+            <a href="" class="heig-full pad-20 i-center">Download </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Header -->
+
+    <!-- star nav-bar -->
+    <div class="nav-bar pad-20 wid-full">
+      <div class="container d-flex al a-item p-rel">
+        <div class="search p-rel m-rig-10 pad-10 d-flex a-item">
+          <i class="fa-solid fa-magnifying-glass m-rig-5"></i>
+          <input type="search" placeholder="Search store" />
+        </div>
+        <ul class="d-flex j-con-sb flex">
+          <div class="select d-none s-mob flex t-align t-tra-c">
+            <span href="" class="c-point pad-10"
+              >discover <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+          <div class="left d-flex h-mob">
+            <li class="m-rig-20">
+              <a href="" class="t-tra-c active d-bloc">discover</a>
+            </li>
+            <li class="m-rig-20">
+              <a href="" class="t-tra-c d-bloc">browse</a>
+            </li>
+            <li><a href="" class="t-tra-c d-bloc">news</a></li>
+          </div>
+          <div class="right d-flex">
+            <li class="m-rig-20">
+              <a href="" class="t-tra-c"
+                ><span class="d-bloc h-mob">wishlist</span>
+                <i class="fa-regular fa-circle-check d-none s-mob"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" class="t-tra-c"
+                ><span class="d-bloc h-mob">cart</span>
+                <i class="fa-solid fa-cart-shopping d-none s-mob"></i>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <!-- end nav-bar -->
+
+    <!-- star landing -->
+    <div class="landing">
+      <div class="container d-flex p-top-bot-20">
+        <div class="images p-rel wid-full d-flex o-hid">
+          <div class="image wid-full p-rel">
+            <img class="wid-full" src="img/img1.jpg" alt="" />
+            <p class="p-abs">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              hic earum vero explicabo est dignissimos dolor dolorum inventore
+              aperiam deserunt sit, deleniti soluta, perspiciatis at, numquam
+              quod error non! Mollitia!
+            </p>
+            <span class="p-abs"> starting at $99.99</span>
+            <a href="" class="p-abs">BUY NOW</a>
+          </div>
+          <div class="image wid-full p-abs">
+            <img class="wid-full" src="img/img2.jpg" alt="" />
+            <p class="p-abs">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              hic earum vero explicabo est dignissimos dolor dolorum inventore
+              aperiam deserunt sit, deleniti soluta, perspiciatis at, numquam
+              quod error non! Mollitia!
+            </p>
+            <span class="p-abs"> starting at $99.99</span>
+
+            <a href="" class="p-abs">BUY NOW</a>
+          </div>
+          <div class="image wid-full p-abs">
+            <img class="wid-full" src="img/img3.jpg" alt="" />
+            <p class="p-abs">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              hic earum vero explicabo est dignissimos dolor dolorum inventore
+              aperiam deserunt sit, deleniti soluta, perspiciatis at, numquam
+              quod error non! Mollitia!
+            </p>
+            <span class="p-abs"> starting at $99.99</span>
+
+            <a href="" class="p-abs">BUY NOW</a>
+          </div>
+
+          <div class="image wid-full p-abs">
+            <img class="wid-full" src="img/img4.jpg" alt="" />
+            <p class="p-abs">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              hic earum vero explicabo est dignissimos dolor dolorum inventore
+              aperiam deserunt sit, deleniti soluta, perspiciatis at, numquam
+              quod error non! Mollitia!
+            </p>
+            <span class="p-abs"> starting at $99.99</span>
+
+            <a href="" class="p-abs">BUY NOW</a>
+          </div>
+
+          <div class="image wid-full p-abs">
+            <img class="wid-full" src="img/img5.jpg" alt="" />
+            <p class="p-abs">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              hic earum vero explicabo est dignissimos dolor dolorum inventore
+              aperiam deserunt sit, deleniti soluta, perspiciatis at, numquam
+              quod error non! Mollitia!
+            </p>
+            <span class="p-abs"> starting at $99.99</span>
+
+            <a href="" class="p-abs">BUY NOW</a>
+          </div>
+
+          <div class="image wid-full p-abs">
+            <img class="wid-full" src="img/img6.jpg" alt="" />
+            <p class="p-abs">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              hic earum vero explicabo est dignissimos dolor dolorum inventore
+              aperiam deserunt sit, deleniti soluta, perspiciatis at, numquam
+              quod error non! Mollitia!
+            </p>
+            <span class="p-abs"> starting at $99.99</span>
+
+            <a href="" class="p-abs">BUY NOW</a>
+          </div>
+        </div>
+        <ul class="flex">
+          <li class="d-flex pad-5 m-bott-10 c-point a-item p-rel o-hid">
+            <span class="overlay p-abs m-rig-10 heig-full"></span>
+            <img
+              class="wid-full p-rel m-rig-10 b-rad-10-pex"
+              src="img/img1.jpg"
+              alt=""
+            /><span class="title p-rel">img1</span>
+          </li>
+          <li class="d-flex pad-5 m-bott-10 c-point a-item p-rel o-hid">
+            <span class="overlay p-abs m-rig-10 heig-full"></span>
+
+            <img
+              class="wid-full p-rel m-rig-10 b-rad-10-pex"
+              src="img/img2.jpg"
+              alt=""
+            /><span class="title p-rel">img2</span>
+          </li>
+          <li class="d-flex pad-5 m-bott-10 c-point a-item p-rel o-hid">
+            <span class="overlay p-abs m-rig-10 heig-full"></span>
+
+            <img
+              class="wid-full p-rel m-rig-10 b-rad-10-pex"
+              src="img/img3.jpg"
+              alt=""
+            /><span class="title p-rel">img3</span>
+          </li>
+          <li class="d-flex pad-5 m-bott-10 c-point a-item p-rel o-hid">
+            <span class="overlay p-abs m-rig-10 heig-full"></span>
+
+            <img
+              class="wid-full p-rel m-rig-10 b-rad-10-pex"
+              src="img/img4.jpg"
+              alt=""
+            /><span class="title p-rel">img4</span>
+          </li>
+          <li class="d-flex pad-5 m-bott-10 c-point a-item p-rel o-hid">
+            <span class="overlay p-abs m-rig-10 heig-full"></span>
+
+            <img
+              class="wid-full p-rel m-rig-10 b-rad-10-pex"
+              src="img/img5.jpg"
+              alt=""
+            /><span class="title p-rel">img5</span>
+          </li>
+          <li class="d-flex pad-5 m-bott-10 c-point a-item p-rel o-hid">
+            <span class="overlay p-abs m-rig-10 heig-full"></span>
+
+            <img
+              class="wid-full p-rel m-rig-10 b-rad-10-pex"
+              src="img/img6.jpg"
+              alt=""
+            /><span class="title p-rel">img6</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- star gallery -->
+    <div class="gallery-wrap">
+      <div class="container p-top-bot-20">
+        <div class="f-right">
+          <i class="fa-solid fa-chevron-left" id="backBtn"></i>
+
+          <i class="fa-solid fa-chevron-right" id="nextBtn"></i>
+        </div>
+
+        <div class="gallery">
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img1.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img2.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="wid-full imag">
+              <img class="wid-full" src="img/img3.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="wid-full imag">
+              <img class="wid-full" src="img/img4.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="wid-full imag">
+              <img class="wid-full" src="img/img5.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img6.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img7.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img8.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img9.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img10.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img11.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img12.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img13.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img14.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img15.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img16.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img17.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img18.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img19.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img20.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img21.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img22.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img23.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img24.jpg" alt="" />
+            </div>
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+          <div class="box">
+            <div class="imag wid-full">
+              <img class="wid-full" src="img/img25.jpg" alt="" />
+            </div>
+
+            <h4>My Title</h4>
+            <span class="price">$15.55</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end gallery -->
+    <!-- star Free Games -->
+    <div class="free">
+      <div class="container pad-20">
+        <div class="head d-flex j-con-sb p-top-bot-20">
+          <h2><i class="fa-solid fa-gift"></i> Free Games</h2>
+          <a class="t-tra-u pad-5" href="">view more</a>
+        </div>
+        <ul class="g-tem-4 d-grid gap-10">
+          <li>
+            <img class="wid-full" src="img/img1.jpg" alt="" />
+            <h3 class="t-align t-tra-u">free now</h3>
+          </li>
+          <li>
+            <img class="wid-full" src="img/img2.jpg" alt="" />
+            <h3 class="t-align t-tra-u">free now</h3>
+          </li>
+          <li>
+            <img class="wid-full" src="img/img3.jpg" alt="" />
+            <h3 class="t-align t-tra-u">free now</h3>
+          </li>
+          <li>
+            <img class="wid-full" src="img/img4.jpg" alt="" />
+            <h3 class="t-align t-tra-u">free now</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end Free Games -->
+  </body>
+</html>
