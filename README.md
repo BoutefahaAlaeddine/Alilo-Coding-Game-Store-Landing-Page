@@ -1,6 +1,6 @@
 # Alilo Coding — Game Store Landing Page
 
-🌐 Websites. A sleek, dark-themed **Game Store** landing page inspired by the Epic Games Store, built with **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6)**. Features a full-screen auto-rotating hero slider, a horizontally scrollable product gallery with prev/next navigation, a fully responsive mobile menu with animated hamburger, and nested slide-in dropdowns — all powered by custom JS with zero libraries.
+ A sleek, dark-themed **Game Store** landing page inspired by the Epic Games Store, built with **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6)**. Features a full-screen auto-rotating hero slider, a horizontally scrollable product gallery with prev/next navigation, a fully responsive mobile menu with animated hamburger, and nested slide-in dropdowns — all powered by custom JS with zero libraries.
 
 ---
 
